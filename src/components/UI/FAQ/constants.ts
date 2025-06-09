@@ -19,23 +19,23 @@ export const animate = {
 
 export const faqData: FAQItem[] = [
   {
-    question: 'Donde estan ubicados?',
+    question: '¿Dónde están ubicados?',
     answer:
-      'Visita Nuestra oficina en 14321 Nicollet Ave, Burnsville,MN, tmambien nos puedes encontrar aqui mismo contactanos.',
+      'Visita nuestra oficina en 14321 Nicollet Ave, Burnsville,MN, también nos puedes encontrar aqui mismo contáctanos.',
   },
   {
-    question: 'cuales son los precios de los estampados en las T-shirts?',
+    question: '¿Cuales son los precios de los estampados en las T-shirts?',
     answer:
-      'tenemos una gran variedad de precios pero al dia que lees esto tenemos T-shirt full color por 10.57$ un solo estampado frente.',
+      'Tenemos una gran variedad de precios pero al día que lees esto tenemos T-shirt full color por 10.57$ un solo estampado frente.',
   },
   {
-    question: 'tu puedes visitarnos en nuestro local o tienes que venis a nuestras oficinas',
+    question: '¿Te puedo visitar en tú local o puedes venir nuestras oficinas?',
     answer:
-      'Nuestra prioridad es ayudarte a rodar tu noegocio no a que pierdas tu tiempo desviandote de tus deberes asi que nosostros podemos visitarte en tu local o tu puedes visitarnos a nosotros tu eliges',
+      'Nuestra prioridad es ayudarte con tu negocio no a que pierdas tu tiempo desviandote de tus deberes asi que nosostros podemos visitarte en tu local o tú puedes visitarnos a nosotros tu eliges.',
   },
   {
-    question: 'que mas me puedes ayudar',
+    question: '¿Qué mas me puedes ayudar?',
     answer:
-      'si de publicidad solo dinos que necesitas porque con nuestra aliados comerciales logramos que tenfas el productos que necesitas para tu empresa.',
+      'Sí, de publicidad solo dinos que necesitas porque con nuestras alianzas comerciales logramos que tengas los productos que necesitas para tu empresa.',
   },
 ];
