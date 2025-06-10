@@ -16,7 +16,7 @@ interface ParallaxProps {
   baseVelocity: number;
 }
 
-function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
+function ParallaxText({ children, baseVelocity = 30 }: ParallaxProps) {
   const baseX = useMotionValue(0);
   const { scrollY } = useScroll();
   const scrollVelocity = useVelocity(scrollY);
@@ -33,7 +33,8 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
    * have to replace for wrapping that works for you or dynamically
    * calculate
    */
-  const x = useTransform(baseX, (v) => `${wrap(-20, -45, v)}%`);
+  // Reduce the velocity factor to slow down the transition
+  const x = useTransform(baseX, (v) => `${wrap(-20, -45, v)}%`); // -20, -45
 
   const directionFactor = useRef<number>(1);
   useAnimationFrame((t, delta) => {
@@ -49,7 +50,8 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
       directionFactor.current = 1;
     }
 
-    moveBy += directionFactor.current * moveBy * velocityFactor.get();
+    //moveBy += directionFactor.current * moveBy * velocityFactor.get();
+    moveBy += directionFactor.current * moveBy * (velocityFactor.get() * 0.3);
 
     baseX.set(baseX.get() + moveBy);
   });
