@@ -50,8 +50,7 @@ function ParallaxText({ children, baseVelocity = 30 }: ParallaxProps) {
       directionFactor.current = 1;
     }
 
-    //moveBy += directionFactor.current * moveBy * velocityFactor.get();
-    moveBy += directionFactor.current * moveBy * (velocityFactor.get() * 0.3);
+    moveBy += directionFactor.current * moveBy * velocityFactor.get();
 
     baseX.set(baseX.get() + moveBy);
   });
