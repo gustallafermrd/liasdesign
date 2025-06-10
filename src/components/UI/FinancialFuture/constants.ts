@@ -4,13 +4,13 @@ export const cardsInfo = [
   {
     title: 'Medios Tradicionales',
     details:
-      'ayudamos con la presencia de tu empresa para eventos, fiestas, fundrasings, y todo lo que necesites.',
+      'Ayudamos con la presencia de tu empresa para eventos, fiestas, fundrasings, y todo lo que necesites.',
     icon: ic_money_send,
   },
   {
     title: 'Medios Digitales',
     details:
-      'Posiciona tu marca en linea crece tu base de cliente, alcanza mas audiencia, crea presencia en la web.',
+      'Posiciona tu marca en linea, crece tu base de clientes, alcanza mas audiencia, crea presencia en la web.',
     icon: ic_wallet_minus,
   },
 ];
@@ -30,7 +30,7 @@ export const stats = [
   },
   {
     number: '19+',
-    subtitle: 'Paginas web',
+    subtitle: 'Páginas web',
   },
 ];
 
@@ -40,8 +40,8 @@ export const desktopHeaderPhrase = [
   'tu empresa con confianza',
 ];
 export const desktopParagraphPhrase = [
-  'En Lias Design, te ayudamos a cosntruir tu marca, empresa, proyecto con confianza',
-  'nuestro enfoque moderno y simplificado te ayuda a crecer mas facil que nunca.',
+  'En Lias Design, te ayudamos a construir tu marca, empresa y proyecto con confianza',
+  'nuestro enfoque moderno y simplificado te ayuda a crecer más fácil y rápido que nunca.',
 ];
 
 // For mobile
@@ -51,7 +51,7 @@ export const mobileHeaderPhrase = [
 ];
 export const mobileParagraphPhrase = [
   'En Lias Design te ayudamos a construir tu marca, ',
-  'empresa, proyecto con confianza',
+  'empresa y proyecto con confianza',
   'nuestro enfoque moderno y simplificado te ayuda a crecer',
-  'mas facil que nunca.',
+  'más fácil y rápido que nunca.',
 ];

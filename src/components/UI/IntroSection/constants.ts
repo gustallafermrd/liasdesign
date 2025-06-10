@@ -5,7 +5,7 @@ import ic_lock_closed from '../../../../public/svgs/ic_lock_closed.svg';
 // For desktop
 export const desktopHeaderPhrase = ["El Equipo"];
 export const desktopParagraphPhrase = [
-  " Conoce a los jugadores estrellas – de nuestro equipo. que te ayudaran a",
+  " Conoce a los jugadores estrellas – de nuestro equipo. que te ayudarán a",
   'crecer tu marca y posicionarte con las mejores estrategias',
 ];
 
@@ -13,7 +13,7 @@ export const desktopParagraphPhrase = [
 export const mobileHeaderPhrase = ["El Equipo"];
 export const mobileParagraphPhrase = [
   " Conoce a los jugadores estrellas de nuestro equipo",
-  ' que te ayudatan a crecer tu marca y posicionarte',
+  ' que te ayudarán a crecer tu marca y posicionarte',
   'con las mejores estrategias',
 ];
 
@@ -21,7 +21,7 @@ export const edges = [
   {
     point: 'Mizrrain Lias',
     details:
-      'Disenador grafico / publicistas /creativo .',
+      'Diseñador gráfico / publicista / creativo .',
     icon: ic_document_duplicate,
   },
   {
@@ -33,7 +33,7 @@ export const edges = [
   {
     point: 'Gustavo Tallaferro',
     details:
-      'Disenador UX / Disenador UI  / Experto SEO & SEM .',
+      'Diseñador UX / Diseñador UI  / Experto SEO & SEM .',
     icon: ic_lock_closed,
   },
 ];

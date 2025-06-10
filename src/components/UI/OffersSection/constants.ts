@@ -24,24 +24,24 @@ export const offers = [
     illustration: seamless_payments,
     title: 'Estampado de ropa',
     details:
-      'estampamos todo tipo prenda para tu compañia, playeras, gorras, mandiles y mas.',
+      'estampamos todo tipo prenda para tu compañía, playeras, gorras, mandiles y más.',
   },
   {
     illustration: smart_investing,
-    title: 'Paginas web y redes sociales' ,
+    title: 'Páginas web y redes sociales' ,
     details:
-      'Has crecer tu precencia de marca en el internet con tu unico estilo en las paginas web, video para redes sociales, fotografia y estraegia para que tu marca cresca.',
+      'Has crecer tu presencia de marca en internet con tu único estilo en páginas web, video para redes sociales, fotografía y estraegía para que tu marca crezca.',
   },
   {
     illustration: wealth_management,
     title: 'Bordados',
     details:
-      'Creamos bordados unico y relevantes para tu marca, resturant, foodtruck, marca la diferencia con tu imagen.',
+      'Creamos bordados únicos y relevantes para tu marca, resturant, foodtruck, crea la diferencia con tu imágen.',
   },
   {
     illustration: financial_planning,
     title: 'Publicidad exterior',
     details:
-      'imprimimos tu diseños en bannes, vinyl adhesivo, y mas, te ayudamos a wrapear tu foodtruck, carro, contactanos no quedes fuera de la vista.',
+      'imprimimos tu diseños en banners, vinyl adhesivo, y más, te ayudamos a plotear tu foodtruck, carro, contáctanos no quedes fuera de la vista.',
   },
 ];
