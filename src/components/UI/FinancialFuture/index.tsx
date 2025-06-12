@@ -12,7 +12,6 @@ import {
   SVGCtn,
   Stats,
   Stat,
-  Banner,
 } from './styles';
 import MaskText from '@/components/Common/MaskText';
 import { useIsMobile } from '../../../../libs/useIsMobile';
@@ -66,13 +65,6 @@ const FinancialFuture = () => {
           ))}
         </Stats>
       </Inner>
-      <Banner>
-        {isMobile ? (
-          <Image src={future_mobile_banner} alt="future_banner" fill />
-        ) : (
-          <Image src={future_banner} alt="future_banner" fill />
-        )}
-      </Banner>
     </Wrapper>
   );
 };
