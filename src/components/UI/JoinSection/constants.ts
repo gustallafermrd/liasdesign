@@ -2,6 +2,8 @@ import { StaticImageData } from 'next/image';
 import el_triunfo from '../../../../public/images/el_triunfo.svg';
 import casa_deli from '../../../../public/images/casa_deli.svg';
 import ena from '../../../../public/images/ena.svg';
+import latinos from '../../../../public/images/latinos.svg';
+import el_paisa from '../../../../public/images/el_paisa.png';
 
 export type Props = {
   testimony: string;
@@ -14,7 +16,7 @@ export const testimonials = [
     testimony:
       "Excelente trabajo estos chicos nos ayudaron con nuestra idea de tener nuestro foodtruck con un mejor menu, nuestro uniformes y página web, los recomendamos 100%",
     person: 'El Paisa Foodtruck',
-    avatar: el_triunfo,
+    avatar: el_paisa,
   },
   {
     testimony:
@@ -32,7 +34,7 @@ export const testimonials = [
     testimony:
       "Muy buenas las playeras que nos dió Lias con nuestro logos.",
     person: 'Latino Depot',
-    avatar: casa_deli,
+    avatar: latinos,
   },
   {
     testimony:
