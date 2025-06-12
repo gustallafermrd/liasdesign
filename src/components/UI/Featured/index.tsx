@@ -3,7 +3,7 @@ import Image from 'next/image';
 import big_banner from '../../../../public/images/big_banner.png';
 import featured_mobile_banner from '../../../../public/images/featured_mobile_banner.png';
 import ParallaxText from '@/components/Common/ParallaxImages';
-import companies_image from '../../../../public/images/companies.png';
+import companies_image from '../../../../public/images/companies.svg';
 import { Wrapper, Inner, ImageContainer, ParallaxImages, Div } from './styles';
 import RevealCover from '@/components/Common/RevealCover';
 import { useIsMobile } from '../../../../libs/useIsMobile';
