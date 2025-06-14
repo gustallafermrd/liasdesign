@@ -17,10 +17,12 @@ const HeroSection = () => {
   return (
     <Wrapper>
       <Inner>
-        <Pill>
-          <span>Preguntas frecuentes</span>
-          <Image src={ic_chevron_right} alt="chevron-right" />
-        </Pill>
+        <a href="#faq" style={{ textDecoration: 'none' }}>
+          <Pill>
+            <span>Preguntas frecuentes</span>
+            <Image src={ic_chevron_right} alt="chevron-right" />
+          </Pill>
+        </a>
         <HeroTextContainer>
           {isMobile ? (
             <>

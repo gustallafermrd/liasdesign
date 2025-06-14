@@ -23,7 +23,9 @@ export default function Home() {
     <main>
       <HeroSection />
       <Featured />
-      <OffersSection />
+      <section id="servicios">
+        <OffersSection />
+      </section>
       <FinancilaFreedom />
       <FinancialFuture />
       <Carousel options={carouselOptions} autoplay autoplayInterval={3000} >
@@ -31,9 +33,13 @@ export default function Home() {
         <img src="images/big_banner-original.png" alt="Slide 2" />
         <img src="images/big_banner.png" alt="Slide 3" />
       </Carousel>
-      <IntroSection />
+      <section id="equipo">
+        <IntroSection />
+      </section>
       <JoinSection />
-      <FAQ />
+      <section id="faq">
+        <FAQ />
+      </section>
     </main>
   );
 }
