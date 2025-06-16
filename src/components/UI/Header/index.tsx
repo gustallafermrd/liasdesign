@@ -9,7 +9,7 @@ import {
   CallToActions,
   BurgerMenu,
 } from './styles';
-import raft_logo from '../../../../public/svgs/raft_logo.svg';
+import lias_logo from '../../../../public/svgs/lias_logo.svg';
 import ic_bars from '../../../../public/svgs/ic_bars.svg';
 import { GetStartedButton } from '@/components';
 import AnimatedLink from '@/components/Common/AnimatedLink';
@@ -23,7 +23,7 @@ const Header = () => {
     <Wrapper>
       <Inner>
         <LogoContainer>
-          <Image src={raft_logo} alt="raft_logo" priority />
+          <Image src={lias_logo} alt="Lias Design logo" priority />
           <BurgerMenu onClick={() => setIsOpen(!isOpen)}>
             <motion.div
               variants={menu}

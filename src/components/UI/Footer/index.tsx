@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import raft_footer_logo from '../../../../public/svgs/raft_footer_logo.svg';
+import lias_footer_logo from '../../../../public/svgs/lias_footer_logo.svg';
 
 const linksArr = [
   {
@@ -36,7 +36,7 @@ const Footer = () => {
         <FooterMainContent>
           <FooterMiddle>
             <FooterLogo>
-              <Image src={raft_footer_logo} alt="raft_footer_logo" />
+              <Image src={lias_footer_logo} alt="Lias Design logo" />
             </FooterLogo>
             <FooterNavigation>
               {linksArr.map((l, i) => (

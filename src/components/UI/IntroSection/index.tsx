@@ -2,9 +2,9 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { Edge, Edges, Title } from '../FinancialFreedom/styles';
-import lola_card from '../../../../public/images/lola_card.png';
-import orange_card from '../../../../public/images/orange_card.png';
-import terry_card from '../../../../public/images/terry_card.png';
+import lias_card from '../../../../public/images/lias_card.png';
+import mizrra_card from '../../../../public/images/mizrra_card.png';
+import gustavo_card from '../../../../public/images/gustavo_card.png';
 import {
   Wrapper,
   Inner,
@@ -51,19 +51,19 @@ const IntroSection = () => {
         <CardsContainer>
           <LeftImage
             className={isHovered ? 'active' : ''}
-            src={orange_card}
-            alt="orange_atm_card"
+            src={mizrra_card}
+            alt="Mizrrain Lias"
           />
           <MiddleImage
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
-            src={lola_card}
-            alt="blue card"
+            src={lias_card}
+            alt="Lias Design"
           />
           <RightImage
             className={isHovered ? 'active' : ''}
-            src={terry_card}
-            alt="terry card"
+            src={gustavo_card}
+            alt="Gustavo Tallaferro"
           />
         </CardsContainer>
         <Edges>

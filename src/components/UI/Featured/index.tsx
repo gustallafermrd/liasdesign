@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
-import big_banner from '../../../../public/images/big_banner.png';
-import featured_mobile_banner from '../../../../public/images/featured_mobile_banner.png';
+import hero_banner from '../../../../public/images/hero_banner.png';
+import hero_banner_small from '../../../../public/images/hero_banner_small.png';
 import ParallaxText from '@/components/Common/ParallaxImages';
 import companies_image from '../../../../public/images/companies.svg';
 import { Wrapper, Inner, ImageContainer, ParallaxImages, Div } from './styles';
@@ -36,12 +36,12 @@ const Featured = () => {
           >
             {isMobile ? (
               <Image
-                src={featured_mobile_banner}
-                alt="featured_mobile_banner"
+                src={hero_banner_small}
+                alt="Hero Banner Celular"
                 fill
               />
             ) : (
-              <Image src={big_banner} alt="big_banner" fill />
+              <Image src={hero_banner} alt="Hero Banner" fill />
             )}
           </Div>
         </ImageContainer>

@@ -19,7 +19,7 @@ const HeroSection = () => {
       <Inner>
         <a href="#faq" style={{ textDecoration: 'none' }}>
           <Pill>
-            <span>Preguntas frecuentes</span>
+            <span>Preguntas Frecuentes</span>
             <Image src={ic_chevron_right} alt="chevron-right" />
           </Pill>
         </a>

@@ -15,8 +15,8 @@ import RevealCover from '@/components/Common/RevealCover';
 import { Div } from '../Featured/styles';
 import { imageVariants } from '../Featured';
 import { useIsMobile } from '../../../../libs/useIsMobile';
-import financial_freedom_banner from '../../../../public/images/financial_freedom_banner.png';
-import freedom_mobile_banner from '../../../../public/images/freedom_mobile_banner.png';
+import tu_manera from '../../../../public/images/tu_manera.png';
+import tu_manera_small from '../../../../public/images/tu_manera_small.png';
 import {
   desktopBriefNotePhrase,
   desktopHeaderPhrase,
@@ -55,9 +55,9 @@ const FinancialFreedom = () => {
             viewport={{ amount: 0.25, once: true }}
           >
             {isMobile ? (
-              <Image src={freedom_mobile_banner} alt="banner_img" fill />
+              <Image src={tu_manera_small} alt="Tu manera banner celular" fill />
             ) : (
-              <Image src={financial_freedom_banner} alt="banner_img" fill />
+              <Image src={tu_manera} alt="Tu manera banner" fill />
             )}
           </Div>
         </BannerCtn>

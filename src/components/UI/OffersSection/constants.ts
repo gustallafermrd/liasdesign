@@ -1,7 +1,7 @@
-import seamless_payments from '../../../../public/images/seamless_payments.png';
-import smart_investing from '../../../../public/images/smart_investing.png';
-import wealth_management from '../../../../public/images/wealth_management.png';
-import financial_planning from '../../../../public/images/financial_planning.png';
+import estampado_ropa from '../../../../public/images/estampado_ropa.png';
+import paginas_web from '../../../../public/images/paginas_web.png';
+import bordados from '../../../../public/images/bordados.png';
+import publicidad_exterior from '../../../../public/images/publicidad_exterior.png';
 // For desktop
 export const desktopHeaderPhrases = [
   'Servicios',
@@ -21,25 +21,25 @@ export const mobileParagraphPhrase = [
 
 export const offers = [
   {
-    illustration: seamless_payments,
+    illustration: estampado_ropa,
     title: 'Estampado de ropa',
     details:
       'estampamos todo tipo prenda para tu compañía, playeras, gorras, mandiles y más.',
   },
   {
-    illustration: smart_investing,
+    illustration: paginas_web,
     title: 'Páginas web y redes sociales' ,
     details:
       'Has crecer tu presencia de marca en internet con tu único estilo en páginas web, video para redes sociales, fotografía y estraegía para que tu marca crezca.',
   },
   {
-    illustration: wealth_management,
+    illustration: bordados,
     title: 'Bordados',
     details:
       'Creamos bordados únicos y relevantes para tu marca, resturant, foodtruck, crea la diferencia con tu imágen.',
   },
   {
-    illustration: financial_planning,
+    illustration: publicidad_exterior,
     title: 'Publicidad exterior',
     details:
       'imprimimos tu diseños en banners, vinyl adhesivo, y más, te ayudamos a plotear tu foodtruck, carro, contáctanos no quedes fuera de la vista.',

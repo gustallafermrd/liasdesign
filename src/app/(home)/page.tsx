@@ -39,9 +39,9 @@ export default function Home() {
       <FinancialFuture />
       <section id="trabajo">
         <Carousel options={carouselOptions} autoplay autoplayInterval={3000} >
-          <img src="images/big_banner.png" alt="Slide 1" />
-          <img src="images/big_banner-original.png" alt="Slide 2" />
-          <img src="images/big_banner.png" alt="Slide 3" />
+          <img src="images/hero_banner.png" alt="Slide 1" />
+          <img src="images/hero_banner.png" alt="Slide 2" />
+          <img src="images/hero_banner.png" alt="Slide 3" />
         </Carousel>
       </section>
       <section id="equipo">
