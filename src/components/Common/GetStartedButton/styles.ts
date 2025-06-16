@@ -12,3 +12,16 @@ export const LinkTo = styled(Link)`
   font-size: 1rem;
   font-weight: 600;
 `;
+
+export const ModalButton = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6.25rem;
+  background: var(--green);
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+`;

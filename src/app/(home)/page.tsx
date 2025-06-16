@@ -1,3 +1,12 @@
+export const metadata = {
+  title: 'Lias Design | Diseño y Marketing',
+  description: 'Estudio creativo de Mizrrain Lias en Minnesota. Diseño, marketing y branding para tu empresa.',
+  openGraph: {
+    title: 'Lias Design',
+    description: 'Hacemos tus diseños realidad.',
+  },
+};
+
 import {
   FAQ,
   Featured,
@@ -23,16 +32,18 @@ export default function Home() {
     <main>
       <HeroSection />
       <Featured />
-      <section id="servicios">
+      <section id="servicio">
         <OffersSection />
       </section>
       <FinancilaFreedom />
       <FinancialFuture />
-      <Carousel options={carouselOptions} autoplay autoplayInterval={3000} >
-        <img src="images/big_banner.png" alt="Slide 1" />
-        <img src="images/big_banner-original.png" alt="Slide 2" />
-        <img src="images/big_banner.png" alt="Slide 3" />
-      </Carousel>
+      <section id="trabajo">
+        <Carousel options={carouselOptions} autoplay autoplayInterval={3000} >
+          <img src="images/big_banner.png" alt="Slide 1" />
+          <img src="images/big_banner-original.png" alt="Slide 2" />
+          <img src="images/big_banner.png" alt="Slide 3" />
+        </Carousel>
+      </section>
       <section id="equipo">
         <IntroSection />
       </section>

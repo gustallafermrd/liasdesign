@@ -22,11 +22,11 @@ export const menu = {
 };
 export const links = [
   {
-    url: '#servicios',
+    url: '#servicio',
     linkTo: 'Servicios',
   },
   {
-    url: '#trabajos',
+    url: '#trabajo',
     linkTo: 'Trabajos',
   },
   {

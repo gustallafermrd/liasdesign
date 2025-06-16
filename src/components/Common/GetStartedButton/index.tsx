@@ -1,16 +1,22 @@
-import Link from 'next/link';
-import { LinkTo } from './styles';
+'use client';
+
+import React, { useState } from 'react';
+import { ModalButton } from './styles';
+import ContactModal from './ContactModal';
 
 const GetStartedButton = ({ padding }: { padding: string }) => {
+  const [open, setOpen] = useState(false);
   return (
-    <LinkTo
-      style={{
-        padding: padding,
-      }}
-      href="/"
-    >
-      Contactanos
-    </LinkTo>
+    <>
+      <ModalButton
+        type="button"
+        style={{ padding }}
+        onClick={() => setOpen(true)}
+      >
+        Contactanos
+      </ModalButton>
+      <ContactModal isOpen={open} onClose={() => setOpen(false)} />
+    </>
   );
 };
 

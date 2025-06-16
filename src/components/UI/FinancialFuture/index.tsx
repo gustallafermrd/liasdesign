@@ -51,7 +51,14 @@ const FinancialFuture = () => {
                 <MaskText phrases={new Array(info.details)} tag="p" />
               </TextCtn>
               <SVGCtn>
-                <Image src={info.icon} alt="icon" />
+                <Image
+                  src={info.icon}
+                  alt="icon"
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  sizes="(max-width: 768px) 100vw, 100vw"
+                  priority={i === 0}
+                />
               </SVGCtn>
             </Card>
           ))}

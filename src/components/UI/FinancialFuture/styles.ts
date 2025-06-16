@@ -102,10 +102,14 @@ export const TextCtn = styled.div`
 `;
 
 export const SVGCtn = styled.div`
+  width: 100%;
+  aspect-ratio: 16/9;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: url(${card_grid.src});
-  height: 24.55rem;
-  display: grid;
-  place-items: center;
+  overflow: hidden;
 
   @media (max-width: 768px) {
     height: 15.28219rem;

@@ -2,7 +2,7 @@
 import { styled } from 'styled-components';
 
 export const Wrapper = styled.footer`
-  padding-bottom: 3.5rem;
+  padding-bottom: 1rem;
 `;
 
 export const Inner = styled.main`
@@ -87,7 +87,7 @@ export const IconCtn = styled.div`
 
 export const FooterNavigation = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr 1fr;

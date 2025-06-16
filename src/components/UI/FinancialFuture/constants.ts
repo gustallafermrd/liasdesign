@@ -1,17 +1,17 @@
-import ic_money_send from '../../../../public/svgs/ic_money_send.svg';
-import ic_wallet_minus from '../../../../public/svgs/ic_wallet_minus.svg';
+import medios_tradicionales from '../../../../public/images/medios_tradicionales.webp';
+import medios_digitales from '../../../../public/images/medios_digitales.webp';
 export const cardsInfo = [
   {
     title: 'Medios Tradicionales',
     details:
       'Ayudamos con la presencia de tu empresa para eventos, fiestas, fundrasings, y todo lo que necesites.',
-    icon: ic_money_send,
+    icon: medios_tradicionales,
   },
   {
     title: 'Medios Digitales',
     details:
       'Posiciona tu marca en linea, crece tu base de clientes, alcanza mas audiencia, crea presencia en la web.',
-    icon: ic_wallet_minus,
+    icon: medios_digitales,
   },
 ];
 
