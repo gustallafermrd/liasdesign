@@ -21,19 +21,19 @@ export const edges = [
   {
     point: 'Mizrrain Lias',
     details:
-      'Diseñador gráfico / publicista / creativo .',
+      'Mizrrain Lias, diseñador gráfico y especialista en branding, se enfoca en construir identidades visuales memorables y estratégicas. Su visión creativa, atención al detalle e impulso innovador aseguran que cada marca tenga una voz clara, coherente y atractiva.',
     icon: ic_document_duplicate,
   },
   {
-    point: 'Lias Desing',
+    point: 'Lias Design',
     details:
-      'El estudio creativo donde desarrollamos todas las ideas.',
+      'Nos apasiona lo que hacemos. Por eso trabajamos con compromiso, cercanía y un enfoque estratégico que mezcla creatividad y técnica. Creemos en el poder de las ideas bien ejecutadas, en el trabajo en equipo, y en construir relaciones de confianza con cada cliente.',
     icon: ic_identification,
   },
   {
     point: 'Gustavo Tallaferro',
     details:
-      'Diseñador UX / Diseñador UI  / Experto SEO & SEM .',
+      'Gustavo Tallaferro aporta su amplia experiencia como desarrollador tecnológico, con formación en Ciencias de la Computación. Está especializado en lenguajes como JavaScript, PHP y MySQL, y su enfoque en liderazgo y eficiencia garantiza la calidad técnica de cada proyecto.',
     icon: ic_lock_closed,
   },
 ];
