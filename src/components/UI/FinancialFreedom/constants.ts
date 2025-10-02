@@ -46,7 +46,7 @@ export const edges = [
     icon: ic_circle_stack,
   },
   {
-    point: '¿No puedes ir a nuestra officina?',
+    point: '¿No puedes ir a nuestra oficina?',
     details:
       'Sí estás muy ocupado encargándote de tu negocio no te precipites, nosotros nos acercamos a tu oficina, restaurant, foodtruck, solo contáctanos',
     icon: ic_arrows_left_right,

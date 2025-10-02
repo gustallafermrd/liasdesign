@@ -1,6 +1,6 @@
-import ic_document_duplicate from '../../../../public/svgs/ic_document_duplicate.svg';
-import ic_identification from '../../../../public/svgs/ic_identification.svg';
-import ic_lock_closed from '../../../../public/svgs/ic_lock_closed.svg';
+import ic_document_duplicate from '../../../../public/svgs/circle-user-regular-full.svg';
+import ic_identification from '../../../../public/svgs/shop-solid-full.svg';
+import ic_lock_closed from '../../../../public/svgs/circle-user-regular-full.svg';
 
 // For desktop
 export const desktopHeaderPhrase = ["El Equipo"];
