@@ -21,7 +21,7 @@ export const faqData: FAQItem[] = [
   {
     question: '¿Dónde están ubicados?',
     answer:
-      'Visita nuestra oficina en 14321 Nicollet Ave, Burnsville,MN, también nos puedes encontrar aqui mismo contáctanos.',
+      'Visita nuestra oficina en 14321 Nicollet Ave, Burnsville,MN, también nos puedes encontrar aquí mismo contáctanos.',
   },
   {
     question: '¿Cuales son los precios de los estampados en las T-shirts?',
