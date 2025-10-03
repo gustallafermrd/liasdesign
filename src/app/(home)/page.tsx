@@ -19,6 +19,7 @@ import {
   
 } from '@/components';
 import { Carousel } from '@/components/UI/Carousel';
+import { useIsMobile } from '../../../libs/useIsMobile';
 
 const carouselOptions = {
   loop: true,
@@ -28,6 +29,26 @@ const carouselOptions = {
 }
 
 export default function Home() {
+
+  const isMobile = useIsMobile();
+
+  const desktopImages = [
+    "images/slider-1.webp",
+    "images/slider-2.webp",
+    "images/slider-3.webp",
+    "images/slider-4.webp",
+    "images/slider-5.webp",
+    "images/slider-6.webp",
+  ];
+
+  const mobileImages = [
+    "images/slider-sm-1.webp",
+    "images/slider-sm-2.webp",
+    "images/slider-sm-3.webp",
+    "images/slider-sm-4.webp",
+    "images/slider-sm-5.webp",
+    "images/slider-sm-6.webp",
+  ];
   return (
     <main>
       <HeroSection />
@@ -39,12 +60,9 @@ export default function Home() {
       <FinancialFuture />
       <section id="trabajo">
         <Carousel options={carouselOptions} autoplay autoplayInterval={3000} >
-          <img src="images/slider-1.webp" alt="Tacos" />
-          <img src="images/slider-2.webp" alt="Casa Deli" />
-          <img src="images/slider-3.webp" alt="El Triunfo" />
-          <img src="images/slider-4.webp" alt="El Triunfo 2" />
-          <img src="images/slider-5.webp" alt="Send Money" />
-          <img src="images/slider-6.webp" alt="Send Money 1" />
+          {(isMobile ? mobileImages : desktopImages).map((src, idx) => (
+            <img src={src} alt={`Slide ${idx + 1}`} key={src} />
+          ))}
         </Carousel>
       </section>
       <section id="equipo">
