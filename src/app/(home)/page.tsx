@@ -54,7 +54,7 @@ export default function Home() {
       <section id="trabajo">
         <Carousel options={carouselOptions} autoplay autoplayInterval={3000} >
           {(isMobile ? mobileImages : desktopImages).map((src, idx) => (
-            <img src={src} alt={`Slide ${idx + 1}`} key={src} />
+            <img src={src} alt={`Slide ${idx + 1}`} key={src} style={{width: "100%", objectFit: "contain", display: "block",}}/>
           ))}
         </Carousel>
       </section>
