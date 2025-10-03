@@ -40,7 +40,7 @@ export const edges = [
     icon: ic_banknotes,
   },
   {
-    point: 'llámanos en cualquier momento',
+    point: 'Llámanos en cualquier momento',
     details:
       'llámanos y cuéntanos de tu idea, aquí tienes el equipo creativo que estas necesitando para avanzar en tu proyecto',
     icon: ic_circle_stack,

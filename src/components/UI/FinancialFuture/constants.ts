@@ -36,12 +36,10 @@ export const stats = [
 
 // For desktop
 export const desktopHeaderPhrase = [
-  'Dale forma al futuro de',
-  'tu empresa con confianza',
+  'Dale forma al futuro de tu empresa con confianza'
 ];
 export const desktopParagraphPhrase = [
-  'En Lias Design, te ayudamos a construir tu marca, empresa y proyecto con confianza',
-  'nuestro enfoque moderno y simplificado te ayuda a crecer más fácil y rápido que nunca.',
+  'En Lias Design, te ayudamos a construir tu marca, empresa y proyecto con confianza nuestro enfoque moderno y simplificado te ayuda a crecer más fácil y rápido que nunca.'
 ];
 
 // For mobile

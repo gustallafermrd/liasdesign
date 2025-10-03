@@ -28,9 +28,9 @@ export const offers = [
   },
   {
     illustration: paginas_web,
-    title: 'Páginas web y redes sociales' ,
+    title: 'Páginas web y redes' ,
     details:
-      'Has crecer tu presencia de marca en internet con tu único estilo en páginas web, video para redes sociales, fotografía y estraegía para que tu marca crezca.',
+      'Has crecer tu presencia de marca en internet con tu único estilo en páginas web, video para redes sociales, fotografía y estrategia para que tu marca crezca.',
   },
   {
     illustration: bordados,

@@ -81,16 +81,16 @@ export const ImageCtn = styled.div`
 
 export const TextCtn = styled.div`
   padding: 2.5rem;
-  max-width: 32.25rem;
+  // max-width: 32.25rem;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.5rem;
   margin-top: auto;
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 500;
-    line-height: 1.75rem;
+    line-height: 2rem;
   }
 
   p {
