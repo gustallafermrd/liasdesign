@@ -16,7 +16,7 @@ export const Header = styled.header`
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  max-width: 56rem;
+  // max-width: 56rem;
   margin-bottom: 6.25rem;
 
   h1 {
@@ -25,7 +25,7 @@ export const Header = styled.header`
   }
 
   p {
-    max-width: 41.75rem;
+    // max-width: 41.75rem;
     color: var(--link-color);
     font-size: 1.25rem;
     font-weight: 400;
